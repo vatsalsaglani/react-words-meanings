@@ -2,7 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="assets/css/uikit.min.css">
+    <script src="assets/js/uikit.min.js"></script>
+    <script src="assets/js/uikit-icons.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet"> 
+    
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
     <!--
@@ -19,7 +24,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Words&Meanings</title>
   </head>
   <body>
     <noscript>
@@ -36,5 +41,10 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+        UIkit.util.on('#js-scroll-trigger', 'scrolled', function () {
+            alert('Done.');
+        });
+    </script>
   </body>
 </html>

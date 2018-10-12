@@ -1,32 +1,56 @@
-.App {
-  text-align: center;
+
+
+body{
+  background-color: rgba(0, 238, 255, 0.226);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.cc {
+  /* margin-top: 5px;
+  margin-bottom: 5px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pos{
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.pos h1{
+  font-family: 'Abril Fatface', cursive;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card{
+  border-radius: 1.2%;
+  box-shadow: 0.1px 3px 5px 1px grey;
+}
+
+.meaning {
+  font-family: 'Lobster', cursive;
+  font-weight: 5rem;
+  font-size: 1.5rem;
+
+}
+
+.word {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2rem;
+  font-weight: 5rem;
+}
+
+.navigation {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.navigation a{
+  font-size: 2rem;
+}
+
+.nav {
+  padding-top: 20px;
+  padding-bottom: 70px;
 }
